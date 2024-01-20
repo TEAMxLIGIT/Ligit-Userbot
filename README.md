@@ -4,7 +4,7 @@
 
 - A First Telegram Userbot Project With Multi Clients Based On PyroGram
 
-<p align="center"><a href="https://t.me/team_ligit"><img src="https://te.legra.ph/file/073d2e0a97e9554e55ef9.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/team_ligit"><img src="https://te.legra.ph/file/d735867c2930509c1283b.jpg" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
@@ -58,7 +58,7 @@ Checkout Tutorial!
 ```console
  $ apt-get -y update
  $ apt-get -y install git gcc python3-pip -y
- $ git clone https://[[github.com/TeamxLigit/Ligit-Userbot]
+ $ git clone https://github.com/TeamxLigit/Ligit-Userbot
  $ cd Ligit-Userbot
  $ pip3 install -U -r requirements.txt
  $ cp sample.env .env
