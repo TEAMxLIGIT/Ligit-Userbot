@@ -10,8 +10,8 @@ API_ID = int(getenv("API_ID", "6435225")) #optional
 API_HASH = getenv("API_HASH", "") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("OWNER_ID"))
-MONGO_URL = getenv("MONGO_URL")
+OWNER_ID = int(getenv("OWNER_ID", ""))
+MONGO_URL = getenv("MONGO_URL", "")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://te.legra.ph/file/d735867c2930509c1283b.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
