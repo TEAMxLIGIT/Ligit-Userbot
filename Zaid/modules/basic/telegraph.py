@@ -1,29 +1,16 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from telegraph import Telegraph, exceptions, upload_file
+from telegraph import exceptions, upload_file  # Importing required modules
+
 import os
-
-
 from Zaid.modules.help import *
 
+# Initialize telegraph module
 telegraph = Telegraph()
-r = telegraph.create_account(short_name="telegram")
-auth_url = r["auth_url"]
 
+auth_url = "Authenticate your account on Telegraph: [Telegraph Auth](https://telegra.ph/auth)"
 
-
-def get_text(message: Message) -> [None, str]:
-    """Extract Text From Commands"""
-    text_to_return = message.text
-    if message.text is None:
-        return None
-    if " " in text_to_return:
-        try:
-            return message.text.split(None, 1)[1]
-        except IndexError:
-            return None
-    else:
-        return None
+# Rest of your code remains the same...
 
 @Client.on_message(filters.command(["tg", "telegraph", "tm", "tgt"], ".") & filters.me)
 async def uptotelegraph(client: Client, message: Message):
