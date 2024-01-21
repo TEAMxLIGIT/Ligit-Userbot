@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from telegraph import exceptions, upload_file  # Importing required modules
+from telegraph import Telegraph, upload_file  # Importing required modules
 
 import os
 from Zaid.modules.help import *
